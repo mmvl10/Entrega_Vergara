@@ -1,0 +1,95 @@
+/* styles.css */
+
+.App {
+    text-align: center;
+  }
+
+  .app-container {
+    text-align: center;
+  }
+  
+  .app-header {
+    background-color: #333; 
+    padding: 20px;
+    color: white;
+  }
+  
+  .app-logo {
+    width: 100px; 
+    height: auto;
+    margin-right: 10px; 
+  }
+  
+  .app-title {
+    margin: 0;
+  }
+  
+  .app-main {
+    padding: 20px;
+  }
+  
+  .section-title {
+    font-size: 28px;
+    color: #333; 
+    margin-bottom: 20px;
+  }
+  
+  .SearchComponent {
+    padding: 50px;
+  }
+  
+  input {
+    margin-right: 20px;
+    margin-top: 15px;
+    padding: 10px;
+    border: 2px solid #254;
+    border-radius: 4px;
+    font-size: 16px;
+  }
+  
+  button {
+    padding: 5px 10px;
+    background-color: #8ea6bd;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+  }
+  
+  table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+  }
+  
+  th, td {
+    border: 2px solid #ddd;
+    padding: 15px;
+    text-align: center;
+    font-size: 16px;
+  }
+  
+  th {
+    background-color: rgb(179, 28, 41);
+    color: white;
+  }
+  
+  .actions {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 10px;
+  }
+  
+  .quantity-buttons button {
+    margin: 5px;
+    padding: 8px 12px;
+    background-color: #92bae0;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 14px;
+  }
+  
+  .quantity-buttons button:hover {
+    background-color: #5e88b0;
+  }
+  
